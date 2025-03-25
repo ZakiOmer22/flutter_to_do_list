@@ -4,6 +4,7 @@ import 'package:to_do_list/home.dart';
 import 'package:to_do_list/pages/intro_pages/page_1.dart';
 import 'package:to_do_list/pages/intro_pages/page_2.dart';
 import 'package:to_do_list/pages/intro_pages/page_3.dart';
+import 'package:to_do_list/pages/intro_pages/page_4.dart';
 
 class OnBoardingScreen extends StatefulWidget {
   const OnBoardingScreen({super.key});
@@ -13,7 +14,7 @@ class OnBoardingScreen extends StatefulWidget {
 }
 
 class _OnBoardingScreenState extends State<OnBoardingScreen> {
-  PageController _controller = new PageController();
+  final PageController _controller = PageController();
   bool isPageChanged = false;
 
   @override
@@ -32,6 +33,9 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
             PageOne(),
             PageTwo(),
             PageThree(),
+            // ! DANGER NOTE
+            // ? PRIMARY
+            // TODO: LIST STATEMENT
           ],
         ),
         Container(
