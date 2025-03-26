@@ -11,7 +11,7 @@ To get a local copy up and running, follow these steps:
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/to_do_list.git
+   git clone https://github.com/ZakiOmer22/flutter_to_do_list.git
    ```
 
 2. Navigate to the project directory:
